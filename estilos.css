@@ -1,0 +1,162 @@
+* {     
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+html {
+   scroll-behavior: smooth;
+ }
+.container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 300%;
+   max-width: 1200px;
+   margin: 0 auto;
+   overflow: hidden;
+ }
+
+/* Header */
+.header {
+   background-color: #6c63ff;
+   color:black;
+   padding: 15px 0;
+   position: sticky;
+   width: 100%;
+   top: 0;
+
+
+   .nav {
+      height: 70px;
+    }
+    .nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+    }
+    
+    .nav ul li {
+      margin: 0 15px;
+    }
+    
+    .nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .dog {
+      display: flex;
+      align-items: center;
+      background: #f9f9f9;
+      padding: 50px 0;
+      justify-content: space-between;
+    }
+    
+    .dog-content {
+      display: flex;
+    }
+    
+    .dog-text {
+      flex: 1;
+      text-align: left;
+    }
+    
+    .dog-text h2 {
+      font-size: 36px;
+      color: #333;
+    }
+    
+    .cta-button {
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    .BotonStar {
+      font-size: 16px;
+      color: #fff;            /color letra boton/
+      background-color: #a239c8;  /color boton/
+      border: none;
+      padding: 15px 30px;
+      border-radius: 20px;
+      cursor: pointer;
+      height: 50px;
+      width: 200px;
+    
+    }
+    
+   }
+
+.doki1 {   /* Imagen*/
+height: 100px;
+width: 200px;
+}
+
+/* Hero Section */
+.hero {
+   display: flex;
+   align-items: center;
+   background: #f9f9f9;
+   padding: 50px 0;
+   justify-content: space-between;
+ }
+ 
+ .hero-content {
+   display: flex;
+   align-items: center;
+ }
+ 
+ .hero-text {
+   flex: 1;
+   text-align: left;
+ }
+ 
+ .hero-text h2 {
+   font-size: 36px;
+   color: #333;
+ }
+ 
+ .hero-image img {
+   width: 100%;
+   max-width: 400px;
+ }
+ 
+ .cta-button {
+   display: inline-block;
+   background: #ff6b6b;
+   color: white;
+   padding: 10px 20px;
+   border-radius: 5px;
+   text-decoration: none;
+ }
+/* Features and Services Grid */
+.features-grid,
+.services-grid,
+.products-grid,
+.testimonial-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.feature-item,
+.service-item,
+.product-item,
+.testimonial-item {
+  text-align: center;
+  flex: 1;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #6c63ff;
+  color: white;
+} 
